@@ -1,3 +1,7 @@
+# theory
+
+<!--- eq_0 :  \overline{X_n} = \frac{1}{n} \sum_{i=1}^{n} X_i --->
+
 # dpu programm used as power measurement references
 
 # build and load dpu mdd
@@ -47,3 +51,5 @@ dpu-profiling dpu-statistics -- ./power_prof_testing
 # test profiling API (with power mode)
 dpu-profiling dpu-power -- ./power_prof_testing
 dpu-profiling --save-temps dpu-statistics -- ./power_prof_testing
+
+
