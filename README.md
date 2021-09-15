@@ -122,7 +122,7 @@ Formally, in any estimation problem, we could say that we want **delta** below a
 To evaluates this, we use the **single sided confidence interval** theory, with **Xi** in **(5)**,
 folowing normal law.
 With **single sided confidence interval**, we can computes the statistical intervals for which
-the esperance estimator result is the most likely to appear, given the parameter **phi**, that is
+the esperance estimator result is the most likely to appear, given the parameter **alpha**, that is
 the probability that the estilator result doesn't fall out of  this interval (formally, **phi** is defined
 as the risk of rejecting a true hypothesis). In **single sided confidence interval**, we admit that **sigma**,
 the STD (standard deviation) of **X** is known. Thus, in practice, the choice of **sigma** is taken as
