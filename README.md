@@ -123,7 +123,7 @@ To evaluates this, we use the **single sided confidence interval** theory, with 
 folowing normal law.
 With **single sided confidence interval**, we can computes the statistical intervals for which
 the esperance estimator result is the most likely to appear, given the parameter **alpha**, that is
-the probability that the estilator result doesn't fall out of  this interval (formally, **phi** is defined
+the probability that the estilator result doesn't fall out of  this interval (formally, **alpha** is defined
 as the risk of rejecting a true hypothesis). In **single sided confidence interval**, we admit that **sigma**,
 the STD (standard deviation) of **X** is known. Thus, in practice, the choice of **sigma** is taken as
 the maximal measured **ina** STD value, with some majoration (the STD is measured with the 6sigma method in lab,
@@ -141,15 +141,15 @@ We could simplify **(8)**, for one or more fixed well known **k** values, to :
 <!--- \mathbf{(9)} N \geqslant  \lambda (\frac{\sigma}{\delta} )^{2},\delta=err *  \mu-->
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{(9)}&space;N&space;\geqslant&space;\lambda&space;(\frac{\sigma}{\delta}&space;)^{2},\delta=err&space;*&space;\mu" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{(9)}&space;N&space;\geqslant&space;\lambda&space;(\frac{\sigma}{\delta}&space;)^{2},\delta=err&space;*&space;\mu" title="\mathbf{(9)} N \geqslant \lambda (\frac{\sigma}{\delta} )^{2},\delta=err * \mu" /></a>
 
-, with **lambda** being the **k quantile critical value** of the normal law distribution function (that depends itself of **phi**, the degree of confidence).
+, with **lambda** being the **k quantile critical value** of the normal law distribution function (that depends itself of **alpha**, the degree of confidence).
 
 #### Application
 
-To computes the final sample size **N**, we will consider only two different values for **phi** (the degree of conficence) :
+To computes the final sample size **N**, we will consider only two different values for **alpha** (the degree of conficence) :
 
-**phi** = 0.05 (95 % confidence) gives **lamba** = 1.96.
+**alpha** = 0.05 (95 % confidence) gives **lamba** = 1.96.
 
-**phi** = 0.01 (99 % conficence) gives **lambda** = 2.576.
+**alpha** = 0.01 (99 % conficence) gives **lambda** = 2.576.
 
 
 We will also computes **Ti_min**, the critical **ina** profile period, for a fixed
